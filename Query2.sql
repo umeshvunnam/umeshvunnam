@@ -1,0 +1,12 @@
+-- INSERT INTO patient VALUES (4,"Patient4","Address for Patient4","1");
+-- INSERT INTO patient VALUES (5,"Patient5","Address for Patient5","1");
+-- SELECT * FROM patient;
+-- UPDATE doctor SET Name = "Doctor4" WHERE Doctor_ID = 1;
+-- UPDATE doctor SET Name = "Doctor5" WHERE Doctor_ID = 2;
+-- SELECT * FROM doctor;
+-- DELETE FROM appointment WHERE Doctor_ID = 1;
+-- SELECT * FROM appointment;
+-- SELECT * FROM appointment;
+-- SELECT * FROM doctor JOIN appointment WHERE doctor.Doctor_ID=appointment.Doctor_ID;
+-- SELECT * FROM patient JOIN appointment WHERE patient.Patient_ID=appointment.Patient_ID;
+

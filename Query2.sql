@@ -9,4 +9,7 @@
 -- SELECT * FROM appointment;
 -- SELECT * FROM doctor JOIN appointment WHERE doctor.Doctor_ID=appointment.Doctor_ID;
 -- SELECT * FROM patient JOIN appointment WHERE patient.Patient_ID=appointment.Patient_ID;
-
+-- SELECT COUNT(Name) TotalPatients FROM patient;
+-- SELECT COUNT(Name) AS TotalDoctors FROM doctor;
+-- SELECT SUM(TotalAmount) AS TotalGain FROM bill;
+-- SELECT * FROM Patient,Doctor;
